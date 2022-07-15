@@ -27,7 +27,7 @@ export default function DetailScreen({route}) {
 
   const imageCheck = (data) => {
 
-    if (data.includes('.png') || data.includes('.jpg') || data.includes('.jpeg')) {
+    if (data.includes('.png') || data.includes('.jpg') || data.includes('.jpeg') || data === null ) {
       return <Image source={{uri: urlToImage}} style={styles.image}/>
     } else {
       return (<View style={styles.noImage}>
