@@ -33,26 +33,6 @@ export default function HomeScreen({navigation}) {
       .catch(err => console.error(err));
   }
 
-  // console.log(articlesData)
-  /*articlesData.sort((a, b) => a.title - b.title)
-
-  console.log(arr);
-*/
-  /*const sortBy = (param) => {
-
-    articlesData.sort((a,b) => (a.param > b.param) ? a.param : b.param )
-
-    console.log(articlesData)
-  }*/
-
- /* const sortBy = (param) => {
-    const sortedByTitle = articlesData.sort((a, b) => {
-      return a[param].toLowerCase() - b[param].toLowerCase()
-    })
-    console.log(sortedByTitle, 'array')
-  }
-  sortBy('title');*/
-
   const background = {uri: 'https://i.pinimg.com/564x/c8/a7/c3/c8a7c3a22a8f1e23c11bfe498146f2d6.jpg'};
 
   if (isLoading) {

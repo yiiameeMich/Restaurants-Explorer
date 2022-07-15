@@ -1,7 +1,6 @@
 import React from "react";
 import {View, Text, FlatList, StyleSheet, TouchableOpacity} from 'react-native';
 import {Ionicons, MaterialCommunityIcons} from '@expo/vector-icons';
-import {ShowCategoryIcon} from "./showCategoryIcon";
 import {useNavigation} from "@react-navigation/native";
 
 export const ShowItemsList = ({item}) => {
@@ -58,11 +57,5 @@ const styles = StyleSheet.create({
     fontWeight: '300',
     letterSpacing: 0.1,
     color: '#7f7f7f'
-  },/*
-    descrContainer: {
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'flex-start'
-    }*/
-
+  },
 });
